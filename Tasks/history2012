@@ -1,0 +1,44 @@
+   0 pwd
+   1 cd /home/
+   2 ls
+   3 pwd
+   4 mkdir user/start
+   5 mkdir -p user/start
+   6 ls
+   7 cd user/
+   8 ls
+   9 cd start/
+  10 ls
+  11 pwd
+  12 touch 1.txt
+  13 echo "Start"
+  14 echo "Start" >> 1.txt 
+  15 cat 1.txt 
+  16 nano 1.txt 
+  17 cat /var/log/syslog
+  18 cat 1.txt 
+  19 date
+  20 date >> 1.txt 
+  21 cat 1.txt 
+  22 cd /opt/
+  23 ls
+  24 mkdir task
+  25 cd task/
+  26 ls
+  27 pwd
+  28 cp /home/user/start/1.txt start.txt
+  29 ls
+  30 cat start.txt 
+  31 ls /
+  32 ls -la /
+  33 ls -la / | tail -4 
+  34 ls -la / | tail -4 >> start.txt 
+  35 cat start.txt 
+  36 ls
+  37 cd /
+  38 ls
+  39 ls -la /
+  40 ls -la / | tail -4 
+  41 history 
+  42 cd tmp/
+  43 history > history.txt
