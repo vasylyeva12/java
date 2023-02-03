@@ -28,6 +28,7 @@ public class gameStone {
             } else if (vasya == 2) {
                 System.out.println("Ничья");
             }
+            //Здесь я оставляю комментарий
         }
     }
 }
